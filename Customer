@@ -1,0 +1,82 @@
+package org.teipir.kefalas_sterpis;
+
+public class Customer {
+  
+	private String Onoma;
+	private String Epwnumo;
+	private String Dieu8unsi;
+	private int Sta8eroTil;
+	private int KinitoTil;
+	private String KwdikosPelati;
+	private String Ari8mosTautotitas;
+	
+	
+	
+	public String getOnoma(){
+		return Onoma;
+	}
+
+	public void setOnoma(String Onoma ){
+		this.Onoma = Onoma;
+	}
+
+	public String getEpwnumo(){
+		return Epwnumo;
+	}
+	public void setEpwnumo(String Epwnumo ){
+		this.Epwnumo = Epwnumo;
+	}
+
+	public String getDieu8unsi(){
+		return Dieu8unsi;
+	}
+
+	public void setDieu8unsi(String Dieu8unsi ){
+		this.Dieu8unsi = Dieu8unsi;
+	}
+	 
+	public int getSta8eroTil(){
+		return Sta8eroTil;
+	}
+
+	public void setSta8eroTil(int Sta8eroTil ){
+		this.Sta8eroTil = Sta8eroTil;
+	}
+
+	public int getKinitoTil(){
+		return KinitoTil;
+	}
+	
+	public void steKinitoTil(int KinitoTil){
+		this.KinitoTil = KinitoTil;
+	}
+	 
+	public String getKwdikosPelati(){
+		return KwdikosPelati;
+	}
+
+	public void setKwdikosPelati(String KwdikosPelati ){
+		this.KwdikosPelati = KwdikosPelati;
+	}
+
+	public String getAri8mosTautotitas(){
+		return Ari8mosTautotitas;
+	}
+
+	public void setAri8mosTautotitas(String Ari8mosTautotitas ){
+		this.Ari8mosTautotitas = Ari8mosTautotitas;
+	}
+
+	public void EisagwgiStoixeiwn(){
+		
+	}
+	
+	public void DiagrafiLogariasmou(){
+		
+	}
+	
+	public void KratisiAutokinitou(){
+		
+	}
+	
+}
