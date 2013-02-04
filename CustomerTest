@@ -1,0 +1,62 @@
+import static org.junit.Assert.*;
+import org.junit.Test;
+import org.teipir.kefalas_sterpis.Customer;
+import junit.framework.TestCase;
+import junit.framework.Assert;
+
+
+public class CustomerTest extends TestCase {
+  Customer Marios;
+	
+	protected void setUp() throws Exception {
+		Marios = new Customer();	 
+	}
+	
+	public void testgetAri8mosTautotitas() {
+		Marios.setAri8mosTautotitas("AB123456");
+		Assert.assertEquals(Marios.getAri8mosTautotitas(), "AB123456");
+	}
+
+	public void testsetAri8mosTautotitas() {
+		Marios.setAri8mosTautotitas("AB123456");
+	}
+	
+	public void testgetDieu8unsi() {
+		Marios.setDieu8unsi("Peristeri 7");
+		Assert.assertEquals(Marios.getDieu8unsi(), "Peristeri 7");
+	}
+
+	public void testsetDieu8unsi() {
+		Marios.setDieu8unsi("Peristeri 7");
+	}
+	
+	public void testgetEpwnumo() {
+		Marios.setEpwnumo("Sterpis");
+		Assert.assertEquals(Marios.getEpwnumo(), "Sterpis");
+	}
+
+	public void testsetEpwnumo() {
+		Marios.setEpwnumo("Sterpis");
+	}
+	
+	public void testgetSta8eroTil() {
+		Marios.setSta8eroTil(2105777777);
+		Assert.assertNotNull(Marios.getSta8eroTil());
+	}
+
+	public void testsetSta8eroTil() {
+		Marios.setSta8eroTil(2105777777);
+	}
+	
+		
+	public void testNullAri8mosTautotitas() {
+		Assert.assertNull(Marios.getAri8mosTautotitas());
+	}
+	
+}
+	
+	
+	
+	
+	
+
