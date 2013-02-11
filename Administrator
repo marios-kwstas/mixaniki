@@ -1,0 +1,225 @@
+package org.teipir.kefalas_sterpis;
+
+import java.util.Collection;
+import java.util.Iterator;
+
+public class Administrator {
+
+  public void istorikoEnoikiaseon(){
+	
+}
+
+private Collection<Customer> customer;
+
+public Collection<Customer> getCustomer()
+{
+	return customer;
+}
+ 
+public Iterator<Customer> customerIterator(){
+	return customer.iterator();
+}
+
+public boolean isCustomerEmpty(){
+	return customer.isEmpty();
+}
+
+public boolean containsCustomer(Customer customer){
+	return this.customer.contains(customer);
+}
+
+public boolean containsAllCustomer(Collection<Customer> customer){
+	return this.customer.containsAll(customer);
+}
+
+public int customerSize(){
+	return customer.size();
+}
+
+public Customer[] customerToArray(){
+	return customer.toArray(new Customer[customer.size()]);
+}
+
+public boolean addCustomer(Customer customer){
+	return this.customer.add(customer);
+}
+
+public void setCustomer(Collection<Customer> customer){
+	this.customer = customer;
+}
+
+public boolean removeCustomer(Customer customer){
+	return this.customer.remove(customer);
+}
+
+public void clearCustomer(){
+	this.customer.clear();
+}
+
+private Collection<Rent> rent;
+
+public Collection<Rent> getRent()
+{
+	return rent;
+}
+ 
+public Iterator<Rent> rentIterator(){
+	return rent.iterator();
+}
+
+public boolean isRentEmpty(){
+	return rent.isEmpty();
+}
+
+public boolean containsRent(Rent rent){
+	return this.rent.contains(rent);
+}
+
+public boolean containsAllRent(Collection<Rent> rent){
+	return this.rent.containsAll(rent);
+}
+
+public int rentSize(){
+	return rent.size();
+}
+
+public Rent[] rentToArray(){
+	return rent.toArray(new Rent[rent.size()]);
+}
+
+public boolean addRent(Rent rent){
+	return this.rent.add(rent);
+}
+
+public void setRent(Collection<Rent> rent){
+	this.rent = rent;
+}
+
+public boolean removeRent(Rent rent){
+	return this.rent.remove(rent);
+}
+
+public void clearRent(){
+	this.rent.clear();
+}
+
+private Collection<Vehicle> vehicle;
+
+public Collection<Vehicle> getVehicle()
+{
+	return vehicle;
+}
+ 
+public Iterator<Vehicle> vehicleIterator(){
+	return vehicle.iterator();
+}
+
+public boolean isVehicleEmpty(){
+	return vehicle.isEmpty();
+}
+
+public boolean containsVehicle(Vehicle vehicle){
+	return this.vehicle.contains(vehicle);
+}
+
+public boolean containsAllVehicle(Collection<Vehicle> vehicle){
+	return this.vehicle.containsAll(vehicle);
+}
+
+public int vehicleSize(){
+	return vehicle.size();
+}
+
+public Vehicle[] vehicleToArray(){
+	return vehicle.toArray(new Vehicle[vehicle.size()]);
+}
+
+
+public boolean addVehicle(Vehicle vehicle){
+	return this.vehicle.add(vehicle);
+}
+
+public void setVehicle(Collection<Vehicle> vehicle){
+	this.vehicle = vehicle;
+}
+
+public boolean removeVehicle(Vehicle vehicle){
+	return this.vehicle.remove(vehicle);
+}
+
+public void clearVehicle(){
+	this.vehicle.clear();
+}
+
+public void statistikaEnoikiaseon(){
+
+}
+
+private Collection<Employee> employee;
+
+public Collection<Employee> getEmployee()
+{
+	return employee;
+}
+ 
+public Iterator<Employee> employeeIterator(){
+	return employee.iterator();
+}
+
+public boolean isEmployeeEmpty(){
+	return employee.isEmpty();
+}
+
+public boolean containsEmployee(Employee employee){
+	return this.employee.contains(employee);
+}
+
+public boolean containsAllEmployee(Collection<Employee> employee){
+	return this.employee.containsAll(employee);
+}
+
+public int employeeSize(){
+	return employee.size();
+}
+
+public Employee[] employeeToArray(){
+	return employee.toArray(new Employee[employee.size()]);
+}
+
+public boolean addEmployee(Employee employee){
+	return this.employee.add(employee);
+}
+
+public void setEmployee(Collection<Employee> employee){
+	this.employee = employee;
+}
+
+public boolean removeEmployee(Employee employee){
+	return this.employee.remove(employee);
+}
+
+public void clearEmployee(){
+	this.employee.clear();
+}
+
+public void DiagrafiLogariasmou(){
+	
+}
+
+public void EpexergasiaStoixeiwn(){
+
+}
+
+public void DimiourgiaEnoikiashs(){
+
+}
+public void EpexergasiaEnoikiasis(){
+
+}
+
+public void AkyrosiEnoikiasis(){
+
+}
+
+
+}
